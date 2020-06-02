@@ -1,0 +1,38 @@
+div#productpopup {
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    z-index: 9999;
+    left: 0px;
+    right: 0px;
+    background: #25282b42;
+    width: 100%;
+}
+.custom_popuplayout {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.popup-dialog {
+    width: 65%;
+    display: inline-block;
+    background: #fff;
+    z-index: 99999;
+    box-shadow: 0px 0px 10px 5px #25282ba3;
+}
+.popup-content {
+    padding: 30px;
+}
+.product-page-popup .popup-header {
+    width: 100%;
+    float: left;
+}
+.productpopup-body {
+    text-align: justify;
+    margin-top: 70px;
+}
+div#productpopup {
+    opacity: 0;
+}
